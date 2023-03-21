@@ -1,0 +1,219 @@
+/* app */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+.app {
+  min-height: 98vh;
+  background-color: #EAFDFC; 
+}
+
+/* index */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+  
+  /* header */
+  h1 {
+    text-transform: uppercase;
+    font-size: 350%;
+    font-family: 'Abril Fatface', cursive;
+    cursor: pointer;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .divider {
+    margin: 0%;
+    width: 100%;
+    background-color: #0A2647;
+  }
+
+  /* home */
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .settings {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+
+  .qlogo{
+    margin: 8% 2% 0% 5%;
+    width: 70%;
+  }
+  
+
+  
+  @media (max-width: 800px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .settings {
+      width: 60%;
+    }
+    .qlogo{
+        margin-top: 8%;
+        align-items: center;
+        width: 60%;
+      }
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-evenly;
+  }
+
+  /* Questions */
+
+  .question {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .question .qno{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4rem;
+  }
+  .question .qname{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+
+  }
+  
+  .singleQuestion {
+    width: 95%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.5rem solid #205295 ;
+    border-radius: 5rem;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  
+  .singleOption {
+    width: 47%;
+    height: 75px;
+    background-color: #BFEAF5;
+    font-size: 1.25rem;
+    color: black;
+    border-radius: 4rem;
+    padding: 15px 20px;
+    margin: 10px;
+  }
+
+  .btn{
+    margin-left: 50%;
+  }
+  
+  .select {
+    background-color: #D0EF84;
+    color: black;
+    box-shadow: 0 0 1px black;
+  }
+  
+  .wrong {
+    background-color: #CE2525;
+    color: white;
+    box-shadow: 0 0 1px black;
+  }
+  .controls {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+  }
+
+  @media (max-width: 614px) {
+    .singleQuestion{
+        width: 70%;
+        border: 5%;
+    }
+    .singleOption {
+      width: 70%;
+    }
+}
+
+  /* Quiz */
+
+  .quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .points{
+    margin-right: 4%;
+  }
+  .category{
+    margin-left: 4%;
+  }
+  .quizInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+
+  /* result */
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+  }
+
+  .ending {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+  }
+  /* Footer */
+
+  .foot{
+    background-color: #EAFDFC;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+  }
+
+
