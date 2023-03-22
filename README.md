@@ -24,7 +24,7 @@ Enjoy:))
 
 ## And in mobile view, it looks like this,
 
-<img src='https://user-images.githubusercontent.com/113087236/226825139-88c37dab-f5d3-4c50-8a2f-0701cb8e9b27.png' width=300 height=500> </img>
+<img src='https://user-images.githubusercontent.com/113087236/226892355-11d166f6-8354-47e4-9cf9-807b6c674eda.png' width=300 height=500> </img>
 
 <img src='https://user-images.githubusercontent.com/113087236/226825271-732831ca-f3fc-4483-b4c3-7afcbb413772.png' width=300 height=500> </img>
 
