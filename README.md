@@ -11,25 +11,24 @@ Enjoy:))
 
 # Layout of Quizzle.
 
-![image](https://user-images.githubusercontent.com/113087236/226824317-e13c951c-c31d-42eb-a470-7eee3613ada5.png)
+<img src='https://user-images.githubusercontent.com/113087236/226824317-e13c951c-c31d-42eb-a470-7eee3613ada5.png' width=500 height=300> </img>
 
-![image](https://user-images.githubusercontent.com/113087236/226824489-cb6a3992-eae4-45a6-bd4a-52b471835277.png)
+<img src='https://user-images.githubusercontent.com/113087236/226824489-cb6a3992-eae4-45a6-bd4a-52b471835277.png' width=500 height=300> </img>
 
-![image](https://user-images.githubusercontent.com/113087236/226824548-71dedbb5-ff25-4996-9eb1-073a7bc7ec3d.png)
+<img src='https://user-images.githubusercontent.com/113087236/226824548-71dedbb5-ff25-4996-9eb1-073a7bc7ec3d.png' width=500 height=300> </img>
 
-![image](https://user-images.githubusercontent.com/113087236/226824633-bdfda02f-1d59-43f0-a1be-1c150b35879a.png)
+<img src='https://user-images.githubusercontent.com/113087236/226824633-bdfda02f-1d59-43f0-a1be-1c150b35879a.png' width=500 height=300> </img>
 
-![image](https://user-images.githubusercontent.com/113087236/226824894-604f5c62-8b25-4a2b-bf3e-52b4e3406534.png)
+<img src='https://user-images.githubusercontent.com/113087236/226824894-604f5c62-8b25-4a2b-bf3e-52b4e3406534.png' width=500 height=300> </img>
+
 
 ## And in mobile view, it looks like this,
 
-![image](https://user-images.githubusercontent.com/113087236/226825139-88c37dab-f5d3-4c50-8a2f-0701cb8e9b27.png)
+<img src='https://user-images.githubusercontent.com/113087236/226825139-88c37dab-f5d3-4c50-8a2f-0701cb8e9b27.png' width=300 height=500> </img>
 
-![image](https://user-images.githubusercontent.com/113087236/226825271-732831ca-f3fc-4483-b4c3-7afcbb413772.png)
+<img src='https://user-images.githubusercontent.com/113087236/226825271-732831ca-f3fc-4483-b4c3-7afcbb413772.png' width=300 height=500> </img>
 
-
-![image](https://user-images.githubusercontent.com/113087236/226825075-20b11734-1acc-4855-bd24-43e66d291cfe.png)
-
+<img src='https://user-images.githubusercontent.com/113087236/226825075-20b11734-1acc-4855-bd24-43e66d291cfe.png' width=300 height=500> </img>
 
 
 # Getting Started with Create React App
