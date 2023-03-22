@@ -1,3 +1,36 @@
+# Description
+
+## Welcome to Quizzle!
+
+The ultimate trivia game where you can challenge yourself on wide range of topics ranging from pop culture to science and nature.
+With 23 categories and 3 difficulty levels, this game has something for everyone!
+
+Enjoy:))
+
+
+
+# Layout of Quizzle.
+
+<img src='https://user-images.githubusercontent.com/113087236/226824317-e13c951c-c31d-42eb-a470-7eee3613ada5.png' width=500 height=300> </img>
+
+<img src='https://user-images.githubusercontent.com/113087236/226824489-cb6a3992-eae4-45a6-bd4a-52b471835277.png' width=500 height=300> </img>
+
+<img src='https://user-images.githubusercontent.com/113087236/226824548-71dedbb5-ff25-4996-9eb1-073a7bc7ec3d.png' width=500 height=300> </img>
+
+<img src='https://user-images.githubusercontent.com/113087236/226824633-bdfda02f-1d59-43f0-a1be-1c150b35879a.png' width=500 height=300> </img>
+
+<img src='https://user-images.githubusercontent.com/113087236/226824894-604f5c62-8b25-4a2b-bf3e-52b4e3406534.png' width=500 height=300> </img>
+
+
+## And in mobile view, it looks like this,
+
+<img src='https://user-images.githubusercontent.com/113087236/226892355-11d166f6-8354-47e4-9cf9-807b6c674eda.png' width=300 height=500> </img>
+
+<img src='https://user-images.githubusercontent.com/113087236/226825271-732831ca-f3fc-4483-b4c3-7afcbb413772.png' width=300 height=500> </img>
+
+<img src='https://user-images.githubusercontent.com/113087236/226825075-20b11734-1acc-4855-bd24-43e66d291cfe.png' width=300 height=500> </img>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
