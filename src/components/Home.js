@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Categories from "../data/Categories";
 import "../styles.css";
 
-const Home = ({ name, setName, fetchQuestions }) => {
+const Home = ({ name, setName, fetchQuestions}) => {
   const [category, setCategory] = useState("");
   const [difficulty, setDifficulty] = useState("");
 
@@ -36,7 +36,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
 
           >
             {Categories.map((cat) => (
-              <MenuItem key={cat.category} value={cat.value}>
+              <MenuItem key={cat.category} value={cat.id}>
                 {cat.category}
               </MenuItem>
             ))}
