@@ -18,10 +18,10 @@ const Home = ({ name, setName, fetchQuestions }) => {
   return (
     <div className="content">
       <div className="settings">
-        <span style={{ fontSize: 30 }}>Lets get Quizzing!</span>
+        <span>Lets get Quizzing!</span>
         <div className="inputs">
           <TextField
-            style={{ marginBottom: 25 }}
+            style={{ marginBottom:30 }}
             label="Enter Your Name"
             variant="outlined"
             onChange={(e) => setName(e.target.value)}
@@ -30,9 +30,10 @@ const Home = ({ name, setName, fetchQuestions }) => {
             select
             style={{ marginBottom: 30 }}
             label="Select Category"
+            variant="outlined"
             value={category}
             onChange={(e) => setCategory(e.target.value)}
-            variant="outlined"
+
           >
             {Categories.map((cat) => (
               <MenuItem key={cat.category} value={cat.value}>
@@ -44,9 +45,9 @@ const Home = ({ name, setName, fetchQuestions }) => {
             select
             style={{ marginBottom: 30 }}
             label="Select Difficulty"
+            variant="outlined"
             value={difficulty}
             onChange={(e) => setDifficulty(e.target.value)}
-            variant="outlined"
           >
             <MenuItem key="Easy" value="easy">
               Easy
@@ -60,7 +61,6 @@ const Home = ({ name, setName, fetchQuestions }) => {
           </TextField>
           <Button
             variant="contained"
-            color="primary"
             size="large"
             onClick={handleSubmit}
           >

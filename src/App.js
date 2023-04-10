@@ -19,30 +19,36 @@ function App() {
         category && `&category=${category}`
       }${difficulty && `&difficulty=${difficulty}`}&type=multiple`
     );
-
+    console.log(data);
     setQuestions(data.results);
   };
 
   return (
     <BrowserRouter>
-      <div className="app" style={{ backgroundImage: 'url("/ques1.png")' }}>
+      <div className="app">
         <Header />
         <Routes>
-          <Route path="/" element={<Home
-              name={name}
-              setName={setName}
-              fetchQuestions={fetchQuestions}
-            />}>
+          <Route path="/" 
+                 element={<Home
+                            name={name}
+                            setName={setName}
+                            fetchQuestions={fetchQuestions}
+                          />}>
           </Route>
-          <Route path="/quiz" element={<Quiz
-              name={name}
-              questions={questions}
-              score={score}
-              setScore={setScore}
-              setQuestions={setQuestions}
-            />}>
+          <Route path="/quiz"    
+                 element={<Quiz
+                            name={name}
+                            questions={questions}
+                            score={score}
+                            setScore={setScore}
+                            setQuestions={setQuestions}
+                          />}>
           </Route>
-          <Route path="/result" element={<Result name={name} score={score} />}>
+          <Route path="/result"
+                 element={<Result 
+                              name={name} 
+                              score={score}
+                         />}>
           </Route>
         </Routes>
       </div>

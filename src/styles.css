@@ -1,5 +1,5 @@
 /* app */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
@@ -24,7 +24,6 @@ body {
     text-transform: uppercase;
     font-size: 350%;
     font-family: 'Abril Fatface', cursive;
-    cursor: pointer;
   }
   
   .header {
@@ -54,6 +53,7 @@ body {
     align-items: center;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    font-size: 30px;
   }
 
   .qlogo{
@@ -124,7 +124,6 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
     align-items: center;
     justify-content: space-around;
     margin: 10px;

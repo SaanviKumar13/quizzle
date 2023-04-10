@@ -33,7 +33,7 @@ const Question = ({
   };
 
   const goNext = () => {
-    if (currQues > 8) {
+    if (currQues === 9) {
       navigate("/result");
     } else if (selected) {
       setCurrQues(currQues + 1);
@@ -71,17 +71,16 @@ const Question = ({
             color="secondary"
             style={{ width: 185 }}
             href="/"
-            onClick={() => quit()}
+            onClick={quit}
           >
             Quit
           </Button>
           <Button
             variant="contained"
-            color="primary"
             style={{ width: 185 }}
             onClick={goNext}
           >
-            {currQues > 20 ? "Submit" : "Next Question"}
+            {currQues === 9 ? "Submit" : "Next Question"}
           </Button>
         </div>
       </div>
