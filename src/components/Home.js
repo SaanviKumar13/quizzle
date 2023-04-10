@@ -36,7 +36,7 @@ const Home = ({ name, setName, fetchQuestions}) => {
 
           >
             {Categories.map((cat) => (
-              <MenuItem key={cat.category} value={cat.id}>
+              <MenuItem key={cat.category} value={cat.value}>
                 {cat.category}
               </MenuItem>
             ))}
